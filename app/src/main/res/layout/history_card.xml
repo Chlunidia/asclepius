@@ -12,11 +12,12 @@
         android:layout_width="match_parent"
         android:foregroundGravity="center"
         android:padding="10dp"
+        android:layout_margin="12dp"
         tools:layout_editor_absoluteX="10dp"
         tools:layout_editor_absoluteY="8dp"
         android:layout_height="100dp"
         tools:ignore="MissingConstraints"
-        android:background="@drawable/card_rounded">
+        android:background="@drawable/button_outline">
 
         <ImageView
             android:id="@+id/profile_image"
